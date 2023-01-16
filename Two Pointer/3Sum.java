@@ -36,7 +36,7 @@ class Solution {
                         l++; //increase our left pointer 
                         r--; //decrease our right pointer
                     }
-                    else if(nums[l] + nums[r] > target){ //if answer is two big, decrease our total by decrease right pointer
+                    else if(nums[l] + nums[r] > target){ //if answer is too big, decrease our total by decrease right pointer
                         r--;
                     }
                     else{ //if the answer is too small, decrease our total by increase left pointer
